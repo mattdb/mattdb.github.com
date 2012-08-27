@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Housekeeping | mattdb]]></title>
-  <link href="http://mattdb.github.com/blog/categories/housekeeping/atom.xml" rel="self"/>
-  <link href="http://mattdb.github.com/"/>
-  <updated>2012-08-27T10:44:04-05:00</updated>
-  <id>http://mattdb.github.com/</id>
+  <link href="http://mattdb.com/blog/categories/housekeeping/atom.xml" rel="self"/>
+  <link href="http://mattdb.com/"/>
+  <updated>2012-08-27T10:44:47-05:00</updated>
+  <id>http://mattdb.com/</id>
   <author>
     <name><![CDATA[Matt Bauer]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://mattdb.github.com/blog/2012/08/27/hello-world/"/>
+    <link href="http://mattdb.com/blog/2012/08/27/hello-world/"/>
     <updated>2012-08-27T09:59:00-05:00</updated>
-    <id>http://mattdb.github.com/blog/2012/08/27/hello-world</id>
+    <id>http://mattdb.com/blog/2012/08/27/hello-world</id>
     <content type="html"><![CDATA[<blockquote><p>Better to remain silent and be thought a fool than to speak out and remove all doubt</p></blockquote>
 
 <p>You've been warned.</p>
