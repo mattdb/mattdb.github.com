@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[mattdb]]></title>
+  <link href="http://mattdb.github.com/atom.xml" rel="self"/>
+  <link href="http://mattdb.github.com/"/>
+  <updated>2012-08-27T10:44:04-05:00</updated>
+  <id>http://mattdb.github.com/</id>
+  <author>
+    <name><![CDATA[Matt Bauer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://mattdb.github.com/blog/2012/08/27/hello-world/"/>
+    <updated>2012-08-27T09:59:00-05:00</updated>
+    <id>http://mattdb.github.com/blog/2012/08/27/hello-world</id>
+    <content type="html"><![CDATA[<blockquote><p>Better to remain silent and be thought a fool than to speak out and remove all doubt</p></blockquote>
+
+<p>You&#8217;ve been warned.</p>
+
+<h2>The Plan</h2>
+
+<p>I&#8217;ve resisted blogging recently because of an inordinate number of started-in-good-intentions-then-abandoned-after-a-month sort of efforts. Until I could convince myself I wasn&#8217;t going to repeat said mistakes, it was better to stay silent.</p>
+
+<p>&#8220;This time will be different&#8221;&#8211; why? Well, I&#8217;ve actually gotten a plan for a series of articles that should hold my interest sufficiently to at least build some sort of critical mass of posts. That&#8217;s the plan anyhow. Otherwise I guess I&#8217;ll have removed all doubt.</p>
+]]></content>
+  </entry>
+  
+</feed>
