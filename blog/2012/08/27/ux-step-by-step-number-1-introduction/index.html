@@ -1,24 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[mattdb]]></title>
-  <link href="http://mattdb.com/atom.xml" rel="self"/>
-  <link href="http://mattdb.com/"/>
-  <updated>2012-08-27T20:57:06-05:00</updated>
-  <id>http://mattdb.com/</id>
-  <author>
-    <name><![CDATA[Matt Bauer]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>UX Step by Step #1: Introduction - mattdb</title>
+  <meta name="author" content="Matt Bauer">
 
   
-  <entry>
-    <title type="html"><![CDATA[UX Step by Step #1: Introduction]]></title>
-    <link href="http://mattdb.com/blog/2012/08/27/ux-step-by-step-number-1-introduction/"/>
-    <updated>2012-08-27T15:40:00-05:00</updated>
-    <id>http://mattdb.com/blog/2012/08/27/ux-step-by-step-number-1-introduction</id>
-    <content type="html"><![CDATA[<p>This is post #1 of a <a href="http://mattdb.com/blog/categories/brewtime/">multi-post series</a> about the interface design and construction of a sample application. I&#8217;ll be demonstrating some of my thought processes, decisions I make, and problems I may encounter. We&#8217;ll be focusing both on the user interface design and the interesting parts of actually building the app to implement the design. Come along for the ride.</p>
+  <meta name="description" content="This is post #1 of a multi-post series about the interface design and construction of a sample application. I&#8217;ll be demonstrating some of my &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mattdb.com/blog/2012/08/27/ux-step-by-step-number-1-introduction/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="mattdb" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">mattdb</a></h1>
+  
+    <h2>Ruby, Community, Ramblings</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:mattdb.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">UX Step by Step #1: Introduction</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-27T15:40:00-05:00" pubdate data-updated="true">Aug 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>This is post #1 of a <a href="/blog/categories/brewtime/">multi-post series</a> about the interface design and construction of a sample application. I&#8217;ll be demonstrating some of my thought processes, decisions I make, and problems I may encounter. We&#8217;ll be focusing both on the user interface design and the interesting parts of actually building the app to implement the design. Come along for the ride.</p>
 
 <h2>Mission statement</h2>
 
@@ -41,7 +113,7 @@
 
 <p>Time to break out a sketchpad. Here&#8217;s my initial sketch, using a Gantt chart as a rough inspiration:</p>
 
-<p><img src="http://mattdb.com/images/brewtime/sketch.png"></p>
+<p><img src="/images/brewtime/sketch.png"></p>
 
 <p>The big vertical line representing &#8220;Today&#8221;, each row representing a brew in process, and each pill-shaped &#8220;capsule&#8221; representing a brewing step. And a little bit of beer nerd humor for good measure. We can also see some of the uncertainties I&#8217;m facing here:</p>
 
@@ -75,7 +147,7 @@
 
 <p>With some of the issues we gathered from our first take, let&#8217;s try again:</p>
 
-<p><img src="http://mattdb.com/images/brewtime/sketch2.png"></p>
+<p><img src="/images/brewtime/sketch2.png"></p>
 
 <p>We&#8217;ve alleviated most of the problems from above. Highlights for the end capsules of overdue (orange) or &#8220;any day now&#8221; (green) stages draw your attention, whereas a stage that&#8217;s currently active but hasn&#8217;t yet hit the &#8220;ending window&#8221; will just display its end capsule as a little more saturated, or darker, or something (as I clearly noted!).</p>
 
@@ -85,31 +157,119 @@
 
 <p>I&#8217;m fairly happy with this as a starting point. One minor alteration I think I&#8217;ll do once we&#8217;re implementing is to remove the black border between a currently active stage and its ending window. This will help make it especially clear that the end capsules are not separate stages, but are just a part of the bigger stage. Also it might make sense for the rounded corners to actually go the other way on the end capsule, to better indicate that it represents the potential ending of the stage. So a currently active stage would represented like this:</p>
 
-<p><img src="http://mattdb.com/images/brewtime/sketch3.png"></p>
+<p><img src="/images/brewtime/sketch3.png"></p>
 
 <p>Or maybe we&#8217;ll end up reversing the colors, so the darker part is what we know will happen and the light part is the possible additional time. The great part about sass and representing these with css is this&#8217;ll be really easy to play around with as we&#8217;re building them.</p>
 
 <h2>Up next</h2>
 
 <p>Next time, we&#8217;ll be looking at setting up the basic app and getting a basic data structure laid out. Stay tuned.</p>
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://mattdb.com/blog/2012/08/27/hello-world/"/>
-    <updated>2012-08-27T09:59:00-05:00</updated>
-    <id>http://mattdb.com/blog/2012/08/27/hello-world</id>
-    <content type="html"><![CDATA[<blockquote><p>Better to remain silent and be thought a fool than to speak out and remove all doubt</p></blockquote>
 
-<p>You&#8217;ve been warned.</p>
+<span class="byline author vcard">Posted by <span class="fn">Matt Bauer</span></span>
 
-<h2>The Plan</h2>
+      
 
-<p>I&#8217;ve resisted blogging recently because of an inordinate number of started-in-good-intentions-then-abandoned-after-a-month sort of efforts. Until I could convince myself I wasn&#8217;t going to repeat said mistakes, it was better to stay silent.</p>
 
-<p>&#8220;This time will be different&#8221;&#8211; why? Well, I&#8217;ve actually gotten a plan for a series of articles that should hold my interest sufficiently to at least build some sort of critical mass of posts. That&#8217;s the plan anyhow. Otherwise I guess I&#8217;ll have removed all doubt.</p>
-]]></content>
-  </entry>
+
+
+
+
+
+
   
-</feed>
+
+
+<time datetime="2012-08-27T15:40:00-05:00" pubdate data-updated="true">Aug 27<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/brewtime/'>Brewtime</a>, <a class='category' href='/blog/categories/ux/'>UX</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://mattdb.com/blog/2012/08/27/ux-step-by-step-number-1-introduction/" data-via="" data-counturl="http://mattdb.com/blog/2012/08/27/ux-step-by-step-number-1-introduction/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/08/27/hello-world/" title="Previous Post: Hello World">&laquo; Hello World</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/08/27/ux-step-by-step-number-1-introduction/">UX Step by Step #1: Introduction</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/27/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Matt Bauer -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
