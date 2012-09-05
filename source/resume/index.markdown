@@ -71,3 +71,30 @@ Bachelor of Science, Computer Science from University of Iowa, 2001.
 ## Availability
 
 I choose to spend 1-2 days per week with my two children and as such require a schedule of approximately three working days per week. I'm unable to relocate away from Madison but have a record of successful remote work.
+
+## Contact
+
+<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "x0A5E@DkV5DO0Ej.NKU"
+  key = "0ed83SQRnLFyJuVjphzM5W1vg9m2B6qXAcbOowIirHsafU47GCZTNxYKPtkElD"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>
