@@ -10,7 +10,7 @@ footer: true
 
 ## Summary
 
-I'm a Madison, WI based Ruby and Rails developer with deep experience in both the technologies and practices of the Rails community. I've been working with Rails since 2005.
+I'm veteran Ruby and Rails developer with deep experience in both the technologies and practices of the Rails community. I've been working with Rails since 2005.
 
 I am a devoted and passionate learner, constantly exploring and learning on my own in order to keep up to date in the field. I feel this serves me well in being able to adapt to new projects and environments. I regularly attend relevant conferences to continually sharpen my skills, and read voraciously on a wide variety of technical topics.
 
@@ -24,7 +24,7 @@ I value outstanding user experiences and have experience creating these at all l
 #### Igicom, LLC (New York, NY)
 
 * Responsible for technical planning and implementation for a range of client products. 
-* Wields a full suite of tools such as Rails, Sinatra, MySQL/Postgres, Redis, Memcached, NewRelic, et al. 
+* Set up multi-server production environments for Rails, Sinatra, MySQL/Postgres, Redis, Memcached, NewRelic, et al. 
 * Built iOS app and API for data retrieval.
 * Deployed applications to multi-stage and multi-server deployment infrastructures (responsible for set up and maintenance of some of these infrastructures as well)
 
@@ -70,7 +70,7 @@ Bachelor of Science, Computer Science from University of Iowa, 2001.
 
 ## Availability
 
-I choose to spend 1-2 days per week with my two children and as such require a schedule of approximately 3 to 3 1/2 working days per week. I typically work about 30 hours per week. I'm unable to relocate away from Madison but have a record of successful remote work. The time spent away from the keyboard means I can truly focus when I am there, I find my productivity is not too far off of what some accomplish in 40 hours.
+I choose to spend 1-2 days per week with my two children and as such require a schedule of approximately 3 to 3 1/2 working days per week. I typically work about 30 hours per week. I'm unable to relocate away from Madison but have a record of successful remote work. The time spent away from the keyboard means I can truly focus when I am there, I find my productivity is not too far off of what many accomplish in 40 hours.
 
 ## Contact
 
