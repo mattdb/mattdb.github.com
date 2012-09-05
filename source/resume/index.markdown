@@ -6,6 +6,8 @@ comments: false
 sharing: true
 footer: true
 ---
+[<img src="/images/pdficon_small.png" class="icon"> download as PDF](/resume/MDB-resume.pdf)
+
 # <span class="cap">M</span>att <span class="cap">B</span>auer
 
 ## Summary

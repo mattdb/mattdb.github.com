@@ -23,3 +23,8 @@ article h3 {
   margin-bottom: .25em;
   background: $img-border bottom left repeat-x;
 }
+
+article img.icon {
+  @include shadow-box(none, none, 0);
+  
+}
