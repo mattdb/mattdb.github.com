@@ -56,7 +56,7 @@ I value outstanding user experiences and have experience creating these at all l
 * Sinatra
 * Javascript, jQuery, jQueryUI
 * HTML5, CSS3
-* MySQL, MongoDB, PostgreSQL
+* MySQL, MongoDB, PostgreSQL (at home with non-trivial SQL queries, dual-key-indices and the like)
 * BDD tools including RSpec, MiniTest, FactoryGirl/Machinist, Capybara, Jasmine
 * iOS/Objective C/Cocoa
 * Far too many gems to list
@@ -70,7 +70,7 @@ Bachelor of Science, Computer Science from University of Iowa, 2001.
 
 ## Availability
 
-I choose to spend 1-2 days per week with my two children and as such require a schedule of approximately three working days per week. I'm unable to relocate away from Madison but have a record of successful remote work.
+I choose to spend 1-2 days per week with my two children and as such require a schedule of approximately 3 to 3 1/2 working days per week. I typically work about 30 hours per week. I'm unable to relocate away from Madison but have a record of successful remote work. The time spent away from the keyboard means I can truly focus when I am there, I find my productivity is not too far off of what some accomplish in 40 hours.
 
 ## Contact
 
